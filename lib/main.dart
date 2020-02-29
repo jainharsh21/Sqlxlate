@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Example Dialogflow Flutter',
       theme: new ThemeData(
-        primarySwatch: Colors.deepOrange,
+        primarySwatch: Colors.deepPurple,
       ),
       debugShowCheckedModeBanner: false,
       home: new HomePageDialogflow(),

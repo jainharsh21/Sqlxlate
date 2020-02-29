@@ -52,7 +52,7 @@ class _HomePageDialogflow extends State<HomePageDialogflow> {
     ChatMessage message = new ChatMessage(
       text: response.getMessage() ??
           new CardDialogflow(response.getListMessage()[0]).title,
-      name: "Bot",
+      name: "QueryBot",
       type: false,
     );
     setState(() {
@@ -64,7 +64,7 @@ class _HomePageDialogflow extends State<HomePageDialogflow> {
     _textController.clear();
     ChatMessage message = new ChatMessage(
       text: text,
-      name: "Promise",
+      name: "User",
       type: true,
     );
     setState(() {
@@ -78,7 +78,7 @@ class _HomePageDialogflow extends State<HomePageDialogflow> {
     return new Scaffold(
       appBar: new AppBar(
         centerTitle: true,
-        title: new Text("Flutter and Dialogflow"),
+        title: new Text("Sqlxlate"),
       ),
       body: new Column(children: <Widget>[
         new Flexible(

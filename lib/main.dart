@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Example Dialogflow Flutter',
+      title: 'Sqlxlate',
       theme: new ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
